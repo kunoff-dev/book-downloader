@@ -1,0 +1,21 @@
+{
+  "name": "book_downloader",
+  "version": "0.0.1",
+  "description": "Script for downloading books from the website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "package.json": "^0.0.0",
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^25.10.0"
+  },
+  "allowScripts": {
+    "puppeteer@25.10.0": true
+  }
+}
