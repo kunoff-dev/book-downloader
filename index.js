@@ -56,8 +56,8 @@ async function saveBookAsPDF(token, type, pages, outputName) {
 }
 
 const token = process.env.TOKEN;
-const type = "";
-const pages = 0;
-const outputName = "name.pdf";
+const type = process.env.TYPE;
+const pages = process.env.PAGES;
+const outputName = process.env.OUTPUT_PAGES;
 
 saveBookAsPDF(token, type, pages, outputName);
