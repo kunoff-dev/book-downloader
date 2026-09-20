@@ -11,6 +11,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "package.json": "^0.0.0",
     "pdf-lib": "^1.17.1",
     "puppeteer": "^25.10.0"

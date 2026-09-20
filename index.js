@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const puppeteer = require('puppeteer');
 const { PDFDocument } = require('pdf-lib');
 const fs = require('fs').promises;
@@ -58,6 +60,6 @@ async function saveBookAsPDF(token, type, pages, outputName) {
 const token = process.env.TOKEN;
 const type = process.env.TYPE;
 const pages = process.env.PAGES;
-const outputName = process.env.OUTPUT_PAGES;
+const outputName = process.env.OUTPUT_NAME;
 
 saveBookAsPDF(token, type, pages, outputName);
